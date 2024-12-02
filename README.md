@@ -15,3 +15,17 @@ For this project we will use data cleaning,imputation,analysis and visualization
 Company is expanding into new industries of aircrafts. They are determined to know the aircraft with the lowest risks for the company to start this new business endeavor. The company knows nothing about the potential risks of aircraft.
 ## Data Understanding
 The dataset we have is from the National Transportation Safety Board(NTSB) that includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters.
+## Objectives
+To determine the aircraft with the lowest-risks ​
+
+To determine which location has  the lowest-risks​
+
+To determine which engine type was least risky​
+
+To determine the model with few accidents​
+ # The rate in Investigation type
+investigation = data1["investigation_type"].value_counts().reset_index()
+
+plt.pie(investigation['count'], labels=investigation["investigation_type"], autopct='%1.1f%%')
+plt.title("Overall rate of investigation")
+plt.show()
