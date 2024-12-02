@@ -23,9 +23,16 @@ To determine which location has  the lowest-risks​
 To determine which engine type was least risky​
 
 To determine the model with few accidents​
- # The rate in Investigation type
-investigation = data1["investigation_type"].value_counts().reset_index()
+ c:\Users\hp\OneDrive\Desktop\PHASE 1 PROJECT\Git\Aviation-lower-risk\Tableau dashboard.png
+ ### Tableau Dashboard
+ https://public.tableau.com/app/profile/kennedy.kariuki4533/viz/Aviation-risks/Aviationrisk#1
+ ## Conclusion
+ Aircraft model 340 and RV-7A have the lowest number of accident​
 
-plt.pie(investigation['count'], labels=investigation["investigation_type"], autopct='%1.1f%%')
-plt.title("Overall rate of investigation")
-plt.show()
+Aircraft were substantially damage ​
+
+The engine type which is mostly used is reciprocating​
+
+The helicopter category had the Lowest number of injuries and also being the aircraft with lower risk
+## Recomendation
+I would recommend on the helicopter aircraft because they can be used in the private transportation and a few airplane for the public transportation
